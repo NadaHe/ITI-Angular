@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="cst Course" />
+    <meta name="keywords" content="Cst, HTML, CSS, JS, Javascript" />
+    <meta name="author" content="Cairo University Branch" />
+    <!-- <meta http-equiv="refresh" content="3; url=https://www.google.com"/> -->
+    <title>Application</title>
+    <!--External Style-->
+    <link href="../Styles/Registration.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body style="background-color: pink;">
+
+    <div style="justify-content: center; display: flex; ">
+        <table border="2" cellpadding="5" cellspacing="5" >
+            <form  action="Login.html">
+                <tbody>
+                    <tr>
+                        <td><label>First Name</label></td>
+                        <td><input name="fname" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name</label></td>
+                        <td><input name="lname" type="text" /></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" /></td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2"><label>Gender</label></td>
+                        <td><input name="Gender" id="m" type="radio" /> <label for="m">Male</label></td>
+                    </tr>
+                    <tr>
+                        <td><input name="Gender" id="f" type="radio" /> <label for="f">Female</label></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Bithday:</label>
+                            <select aria-placeholder="ggg">
+                                <option> January</option>
+                                <option> Fabruary</option>
+                                <option> March</option>
+                                <option> Apri</option>
+                                <option> May</option>
+                                <option> June</option>
+                                <option> July</option>
+                                <option> August</option>
+                                <option> Septamper</option>
+                                <option> October</option>
+                                <option> November</option>
+                                <option> December</option>
+                            </select>
+                        </td>
+                        <td><input name="day" size="2" placeholder="dd" type="text" /> <input name="year" size="4" placeholder="yyyy"
+                                type="text" /></td>
+                    </tr>
+                    <tr>
+                        <div style="text-align: center;">
+                            <td colspan="2"><u><b>Interests</b></u></td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <td><input id="S" type="checkbox" /> <label for="S">Sports</label></td>
+                        <td><input id="M" type="checkbox" /> <label for="M">Music</label></td>
+                    </tr>
+                    <tr>
+                        <td><input id="b" name="books" type="checkbox" /> <label for="b">Books</label></td>
+                        <td><input id="c" name="Computer_Stuff" type="checkbox" /> <label for="c">Computer Stuff</label></td>
+
+                    </tr>
+                    <tr>
+                        <td><input id="F" name="Fashion" type="checkbox" /> <label for="F">Fashion</label></td>
+                        <td><input id="Mo" name="Movies" type="checkbox" /> <label for="Mo">Movies</label></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="submit" onsubmit="" /></td>
+                    </tr>
+                </tbody>
+            </form>
+        </table>
+
+    </div>
+
+</body>
+
+</html>

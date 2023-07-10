@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>LogIN Form</title>
+</head>
+
+<body style="background-color: pink;">
+    <form style="justify-content: center; display: flex;">
+        <fieldset>
+            <legend>Log In</legend>
+            <span style="display: block;">
+                <label for="i1">UserName: </label>
+                <input name="uname" id="i1" type="text" placeholder="enter you user name here!" />
+            </span>
+            <span style="display: block;">
+                <label for="i2">PassWord: </label>
+                <input id="i2" type="password" />
+            </span>
+            
+            <span style="display: block;">
+                <label>Select your location: </label>
+                <select name="location">
+                    <optgroup label="Africa">
+                        <option> Egypt</option>
+                        <option> Sudan</option>
+                        <option>Namibia</option>
+                    </optgroup>
+                    <optgroup label="Europe">
+                        <option>France</option>
+                        <option>Russia</option>
+                        <option>UK</option>
+                    </optgroup>
+                    <optgroup label="North America" disabled>
+                        <option>Canada</option>
+                        <option>Mexico</option>
+                        <option>USA</option>
+                    </optgroup>
+                </select>
+            </span>
+            <div>
+                <input id="i3" type="checkbox" name="check" />
+                <label for="i3">Remember <u>M</u>e </label>
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Log in" />
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>

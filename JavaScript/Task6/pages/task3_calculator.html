@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+
+	<div style="border: 1px solid black; background-color: azure; width: 120px; padding: 5px; border-radius: 10px;">    
+		<input id="result" type="text" size="11" style="border-radius: 20px;margin-bottom: 5px ;"><br>
+		<input type="button" value="7" onclick="funNums(this)">
+		<input type="button" value="8" onclick="funNums(this)">
+		<input type="button" value="9" onclick="funNums(this)">
+		<input type="button" value=" + " onclick="add()" ><br>
+		<input type="button" value="4" onclick="funNums(this)">
+		<input type="button" value="5" onclick="funNums(this)">
+		<input type="button" value="6" onclick="funNums(this)">
+		<input type="button" value=" - " onclick="subtract()"><br>
+		<input type="button" value="1" onclick="funNums(this)">
+		<input type="button" value="2" onclick="funNums(this)">
+		<input type="button" value="3" onclick="funNums(this)">
+		<input type="button" value=" * " onclick="multiply()"><br>
+		<input type="button" value="0" onclick="funNums(this)" style="width: 50px;">
+		<input type="button" value="=" onclick="equals()">
+		<input type="button" value=" / " onclick="divide()"><br>
+		<input type="button" value="C" onclick="ClearData()">
+	</div>
+
+    <script src="../scripts/task3_calculator.js"></script>
+</body>
+</html>

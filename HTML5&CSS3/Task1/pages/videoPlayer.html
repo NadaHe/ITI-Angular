@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Player</title>
+</head>
+<body>
+    <video src="../videos/Minions.mp4" id="video"></video><br>
+    <input type="range" min="0" value="0" step="1" id="r1"><br>
+
+    <input type="button" value="Play" id="play">
+    <input type="button" value="Stop" id="stop">
+    <input type="button" value="&lt;&lt;" id="startfromzero">
+    <input type="button" value="&lt;" id="back">
+    <input type="button" value="&gt;" id="forward">
+    <input type="button" value="&gt;&gt;" id="end">
+
+    <br>
+
+    <input type="range" min="0" max="1" value="0.5" step="0.1" id="r2">
+    <input type="button" value="Mute" id="mute"><br> <br>
+
+    <label for="speed">Speed</label>
+    <input type="range" min="0" max="16" value="2" step="1" id="r3"><br>
+
+    <script src="../scripts/videoPlayer.js"></script>
+</body>
+</html>

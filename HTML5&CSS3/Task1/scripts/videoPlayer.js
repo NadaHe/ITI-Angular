@@ -1,3 +1,5 @@
+onload=function(){
+
 document.getElementById("play").addEventListener("click", function () {
     document.getElementById("video").play();
 }   , false); 
@@ -47,7 +49,7 @@ document.getElementById("r3").addEventListener("change",function(){
     document.getElementById("video").playbackRate = document.getElementById("r3").value;
 });
 
-
+}
 
 
 

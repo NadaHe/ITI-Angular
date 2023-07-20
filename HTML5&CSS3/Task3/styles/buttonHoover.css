@@ -1,0 +1,37 @@
+#test {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f05db3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  #test:before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: inherit;
+    z-index: -1;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  #test:hover {
+    transform: translateY(7px);
+    box-shadow: 0 14px 8px rgba(49, 3, 42, 0.3);
+  }
+  
+  #test:hover:before {
+    transform: translateY(3px);
+    box-shadow: 0 -4px 8px rgba(50, 14, 209, 0.3);
+  }

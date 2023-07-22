@@ -1,0 +1,11 @@
+.input:valid{
+    border: 2px solid lightgreen;
+}
+
+.input:invalid{
+    border: 2px solid red;
+}
+
+/* .input:hover{
+    font-size: 20pt;
+} */

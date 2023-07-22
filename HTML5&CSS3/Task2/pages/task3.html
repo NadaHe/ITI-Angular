@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+</head>
+
+<body>
+
+    <form onsubmit="saveData()">
+        <input type="text" placeholder="Enter Name" id="uname" pattern="^[a-zA-Z]{3,}$">
+        <input type="text" placeholder="Enter Age" id="uage" pattern="^[1-9]+[0-9]*$">
+        <input type="text" placeholder="Enter Address" id="uaddress" pattern="^[a-zA-Z0-9]{5,}$">
+        <input type="text" placeholder="Enter Gender" id="ugender" pattern="^(Male||Female||male||female)$">
+        <input type="text" placeholder="Enter Your E-mail" id="uemail" pattern="^[a-zA-Z0-9]+[@][a-zA-Z]+(.com){1}$">
+        <input type="text" placeholder="Enter Your Mobile" id="umobile" pattern="^(01)[0-2]{1}[0-9]{8}$">
+        <input type="submit" value="Submit">  
+    </form>
+
+    <script src="../scripts/task3.js"></script>
+</body>
+</html>

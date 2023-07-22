@@ -4,9 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task3</title>
+    <link rel="stylesheet" href="../styles/task3.css">
 </head>
 <body>
-    
+    <input type="text" class="input" id="input1" placeholder="Enter UserName"  pattern="^[a-zA-Z]{3,}$" required>
+    <br> <br>   
+    <input type="text" class="input" id="input2" placeholder="Enter Email"  pattern="^[a-zA-Z0-9]+[@][a-zA-Z]+(.com){1}$" required>
+    <br> <br>   
+    <input type="button" id="clear" value="change" onclick="change()">
+
 <script src="../scripts/task3.js"></script>
 </body>
 </html>

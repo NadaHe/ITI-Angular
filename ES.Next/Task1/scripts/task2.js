@@ -5,7 +5,7 @@ function minMax(...numbers) {
 console.log(minMax(3, 10, 5, 6, 77, 9, 10));
 //#endregion
 
-//#region find Max of array using rest parameter
+//#region find Max of array using rest parameter and spread operator
 function findMax(...numbers) {
     var max=0;
     for (let i = 0; i < numbers.length; i++) {
@@ -15,7 +15,9 @@ function findMax(...numbers) {
     }
     return max;
 }
-console.log(findMax(3, 10, 5, 6, 77, 9, 10));
+var arr=[3, 10, 5, 6, 77, 9, 10];
+console.log(findMax(...arr)); // spread operator
+
 //#endregion
 
 //#region find Min of array using rest parameter

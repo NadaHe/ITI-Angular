@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+/* h2{
+  color: red;
+  background-color: aqua;
+  text-align: center;
+} */
+
+h1{
+    text-align: center;
+    border-bottom: 2px dashed red;
+    width: 55%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  div{
+    width: 90%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px auto;
+    border-radius: 10px;
+  }
+  

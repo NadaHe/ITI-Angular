@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./first.component.css']
 })
 export class FirstComponent {
+  Name = "";
 
+  getData(d:any){
+    // console.log(d.target.value);
+    this.Name = d.target.value;
+  }
+  clear(){
+    this.Name = "";
+  }
 }

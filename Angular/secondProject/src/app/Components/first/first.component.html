@@ -1,0 +1,15 @@
+<h1>Registration</h1>
+<div class="form">
+  <div>
+    <label>Name: </label>
+    <input type="text" [(ngModel)]="name">  <!-- Two way binding --> 
+  </div>
+  <div>
+    <label> &nbsp;&nbsp; Age: </label>
+    <input type="number" [(ngModel)]="age"> <!-- Two way binding -->
+  </div>
+  <p>{{wrong}}</p>
+  <div style="text-align: center;">
+    <input type="button" value="ADD" (click)="Firenow()">
+  </div>
+</div>
